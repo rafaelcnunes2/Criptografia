@@ -1,0 +1,12 @@
+\chapter{Revisão bibliográfica}
+
+\section{AES}
+
+Com o avanço tecnológico alcançado pelo homem, aumentou-se a necessidade por segurança em todos os aspectos. As trocas de informações se tornaram mais intensas e se viu necessária a presença de ferramentas para a proteção de arquivos armazenados em bancos de dados. A criptografia é usada como um desses métodos para assegurar sigilo de qualquer tipo de informação virtual, tornando-as códigos a serem decriptadas apenas pelo receptor da mensagem. 
+
+Em \cite{lu2002integrated} é proposto um método para integrar a criptografia e descriptografia AES em uma ferramenta funcional. Para implementar esse algoritmo é mostrado que são necessárias 5 operações principais: AddRoundKey, SubBytes, ShiftRows, MixColumns e keyExpansion, em que são detalhadas cada uma dessas operações para implementação do algoritmo. Ao término do trabalho, conclui-se que a criptografia AES mostra-se bastante eficiente e de baixa complexidade, proporcionando altas taxas de processamento em hardwares tanto no processo de encriptação como na decriptação.
+
+Em \cite{oliveira2012criptografia} é ressaltado que as técnicas computacionais tornaram-se fundamentais para que os requisitos da proteção a informação sejam atendidos, apresentando neste cenário dois tipos básicos para criptografia: simétrica e assimétrica.
+Na criptografia simétrica, que se encontra o AES, existe a presença de uma chave secreta, usada tanto pelo remetente quanto o destinatário e a ideia é que se use um algoritmo de deciframento junto com esta chave para cifrar e decifrar a mensagem. As principais vantagens observadas são a simplicidade e rapidez para executar os processos criptográficos.
+
+Na criptografia assimétrica, diferentemente da simétrica, existem duas chaves, uma secreta e outra pública. A chave pública pode ficar disponível para qualquer pessoa que queira se comunicar de modo seguro, mas a secreta é de posse apenas de cada titular e é com ela que o destinatário poderá decodificar uma mensagem que foi criptografada para ele com sua respectiva chave pública. A vantagem desse sistema é permitir a qualquer um enviar uma mensagem secreta, apenas utilizando a chave pública de quem irá recebê-la, a desvantagem é a complexidade empregada no desenvolvimento dos algoritmos que devem ser capazes de reconhecer a dupla de chaves existentes.
